@@ -1,0 +1,26 @@
+button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background-color: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+.container{
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .container {
+        height: 200px;
+        width:100px ;
+        justify-content: center;
+        text-align: center;
+    }
+  }
