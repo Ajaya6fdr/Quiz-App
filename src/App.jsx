@@ -6,8 +6,7 @@ import Quiz from './Component/Quiz/Quiz';
 const App = () => {
   return (
     <>
-        
-        <Router>
+        <Router basename="/<Quiz-App>">
           <Routes>
             <Route path="/" element={<StartQuiz/>} />
             <Route path="/guidelines" element={<GuideLines/>} />
